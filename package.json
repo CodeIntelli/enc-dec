@@ -1,0 +1,21 @@
+{
+  "name": "encryptiondecryption",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "server": "nodemon -r esm index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-multiparty": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "jscryptor": "^0.0.12"
+  }
+}
